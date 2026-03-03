@@ -1,0 +1,59 @@
+.header {
+    background: linear-gradient(to right, #4a90e2, #9013fe);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    background: #333;
+}
+
+.navigation a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    transition: background 0.3s;
+}
+
+.navigation a:hover {
+    background: #575757;
+}
+
+.hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.feature {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.feature:hover {
+    transform: scale(1.05);
+}
+
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+}
